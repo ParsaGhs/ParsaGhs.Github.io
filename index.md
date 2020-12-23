@@ -6,7 +6,7 @@ You can use the [editor on GitHub](https://github.com/ParsaGhs/parsaghs.github.i
 
 #### **First Step**
 
-```cpp
+```bash
 ~ $ sudo nano /boot/config.txt
 ```
 
