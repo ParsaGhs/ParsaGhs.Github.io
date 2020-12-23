@@ -10,7 +10,7 @@ You can use the [editor on GitHub](https://github.com/ParsaGhs/parsaghs.github.i
 ~ $ sudo nano /boot/config.txt
 ```
 
-``cpp
+``c++
 int =a;
 ``
 
