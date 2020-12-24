@@ -7,7 +7,7 @@ You can use the [editor on GitHub](https://github.com/ParsaGhs/parsaghs.github.i
 #### **First Step**
 
 ```console
-parsa-ghasemis-macbook-pro: ~ $ sudo nano /boot/config.txt
+parsaghasemi@Parsas-MacBook-Pro ~ $ sudo nano /boot/config.txt
 ```
 
 ``c++
