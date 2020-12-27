@@ -1,0 +1,129 @@
+@font-face {
+    font-family: lalezar;
+    src: url(/Fonts/Lalezar-Regular.woff);
+  }
+  @font-face {
+    font-family: dastnevis;
+    src: url(/Fonts/Far_DastNevis.otf);
+  }
+  
+  @font-face {
+    font-family: calibri;
+    src: url(/Fonts/calibri.ttf);
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  
+  
+  .navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2%;
+    border-radius: 10px;
+    overflow: auto;
+    background-color: rgb(248, 214, 6);
+    position: fixed;
+    padding-right: 10%;
+    right: 2%;
+    width: 55%;
+  }
+  
+  .navbar a {
+    font-family: lalezar;
+    float: right;
+    display: block;
+    color: rgb(0,0,0);
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    font-family: Calibri, sans-serif;
+    background: rgb(232, 228, 210);
+    color: black;
+  }
+  
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; 
+  }
+  
+  
+  .textbarleft {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(4, 45, 113);
+    position: fixed;
+    top: 10%;
+    left: 3%;
+    width: 28%;
+  }
+  
+  .textbarleft a {
+    font-family: lalezar;
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .textbarleft a:hover {
+      background: rgb(232, 228, 210);
+      color: black;
+  }
+  
+  .block {
+      line-height: 1.8;
+      font-family: dastnevis;
+      background-color: rgb(10, 106, 176);
+      border-radius: 10px;
+    padding-top: 10px;
+      margin-top: 3%;
+      margin-right: 2%;
+      padding-right: 1%;
+      padding-left: 1%;
+      padding-bottom: 1%;
+      font-size: 15px;
+      width: 63%;
+      color: rgb(251, 251, 251);
+  }
+  
+  
+  
+  
+  .iconbar {
+    top: 2%;
+    border-radius: 10px;
+    overflow: auto;
+    background-color: rgb(7, 67, 135);
+    position: fixed;
+    left: 3%;
+    width: 21%;
+    padding-left: 7%;
+  }
+  
+  .iconbar a {
+    float: left;
+    display: block;
+    color: rgb(0,0,0);
+    padding: 14px 16px;
+  }
+  
+  .iconbar a:hover {
+    font-family: Calibri, sans-serif;
+    background: rgb(232, 228, 210);
+    color: black;
+  }
+  
+  
+  
