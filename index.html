@@ -1,219 +1,64 @@
-<!DOCTYPE html>
-<html dir="rtl" lang="fa">
+<!doctype html>
+<html>
 <head>
-	<title>ParsaGhs Blog</title>
-	<meta charset="utf-8"> 
-  <link rel="stylesheet" type="text/css" href="/Styles/mainstyle.css">
-  <script src="/Scripts/main.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<meta charset="UTF-8">
+<title>Crossover Studio</title>
+    
 
-<!--	<style>
-		body {margin:0;}
-
-
-@font-face {
-  font-family: lalezar;
-  src: url(/Fonts/Lalezar-Regular.woff);
-}
-@font-face {
-  font-family: dastnevis;
-  src: url(/Fonts/Far_DastNevis.otf);
-}
-
-@font-face {
-  font-family: calibri;
-  src: url(/Fonts/calibri.ttf);
-}
-
+<style>
+    /* The navigation bar */
 .navbar {
-  overflow: hidden;
-  background-color: #333;
+    overflow: hidden;
+    background-color: #FAAF2F;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 2%; /* Position the navbar at the top of the page */
+    right: 2%;
+    height: 96%;
+    width: 56px; /* Full width */
+    border-radius: 10px;
 }
 
-/*
-
-.navbar {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 2%;
-  border-radius: 10px;
-  overflow: auto;
-  background-color: rgb(248, 214, 6);
-  position: fixed;
-  padding-right: 10%;
-  right: 2%;
-  width: 55%;
-}
-
+/* Links inside the navbar */
 .navbar a {
-  font-family: lalezar;
   float: right;
   display: block;
-  color: rgb(0,0,0);
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  font-family: Calibri, sans-serif;
-  background: rgb(232, 228, 210);
-  color: black;
-}
-
-.main {
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px; 
-}
-*/
-
-.textbarleft {
-  border-radius: 10px;
-  overflow: hidden;
-  background-color: rgb(4, 45, 113);
-  position: fixed;
-  top: 10%;
-  left: 3%;
-  width: 28%;
-}
-
-.textbarleft a {
-  font-family: lalezar;
-  float: center;
-  display: block;
-  color: #f2f2f2;
+  color: #252525;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
-.textbarleft a:hover {
-	background: rgb(232, 228, 210);
-	color: black;
-}
-
-.block {
-	line-height: 1.8;
-	font-family: dastnevis;
-	background-color: rgb(10, 106, 176);
-	border-radius: 10px;
-  padding-top: 10px;
-	margin-top: 3%;
-	margin-right: 2%;
-	padding-right: 1%;
-	padding-left: 1%;
-	padding-bottom: 1%;
-	font-size: 15px;
-	width: 63%;
-	color: rgb(251, 251, 251);
-}
-
-
-
-
-.iconbar {
-  top: 2%;
-  border-radius: 10px;
-  overflow: auto;
-  background-color: rgb(7, 67, 135);
-  position: fixed;
-  left: 3%;
-  width: 21%;
-  padding-left: 7%;
-}
-
-.iconbar a {
-  float: left;
-  display: block;
-  color: rgb(0,0,0);
-  padding: 14px 16px;
-}
-
-.iconbar a:hover {
-  font-family: Calibri, sans-serif;
-  background: rgb(232, 228, 210);
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #B7B6C1;
   color: black;
 }
 
-
-
-  </style>
--->
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+    
+    
+    
+    
+    
+    
+    
+</style>    
 </head>
-<body style="background-color: rgb(206, 74, 19);height: 100%;">
-	<div class="navbar">
-  <a href="#home">خانه</a>
-  <a href="#news">آخرین آموزش ها</a>
-  <a href="#contact">درباره من</a>
 
+<body style="background-color: #252526">
+    
+<img src="img/crossoverlogo.png" alt="logo" style="width: 200px;max-height: 30%;margin-top: 2%;margin-left: 2%">
+<div class="navbar">
+    <a href="#menu" class="material-icons">menu</a>
+    <a href="#home" class="material-icons">home</a>
+    <a href="#movies" class="material-icons">movie</a>
+    <a href="#contact" class="material-icons">contact_support</a>
 </div>
-	<div class="textbarleft">
-  <a href="#home">آموزش اول</a>
-  <a href="#news">آموزش دوم</a>
-  <a href="#contact">آموزش سوم</a>
-  <a href="#4">آموزش چهارم</a>
-  <a href="#4">آموزش پمجم</a>
-  <a href="#4">آموزش ششم</a>
-  <a href="#4">آموزش هفتم</a>
-  <a href="#4">آموزش هشتم</a>
-</div>
-
-<div class="iconbar">
-  <a href="#github" style="width: 10%;"><img src="/Icons/github.png" style="width: 100%"></a>
-  <a href="#instagram" style="width: 10%"><img src="/Icons/instagram.png" style="width: 100%"></a>
-  <a href="#youtube" style="width: 10%"><img src="/Icons/youtube.png" style="width: 100%"></a>
-
-</div>
-
-<h1 style="color: rgba(0,0,0,0);">Taskbar</h1>
-
-<!-- Site Posts -->
-
-<div class="block">
-	<h2 style="text-align: center;"> آموزش اول </h3>
-	<img src="/Photos/Post1.jpg" style="width: 100%; border-radius: 10px;">
-	<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-</p>
-</div>
-
-<div class="block">
-	<h2 style="text-align: center;"> آموزش دوم </h3>
-	<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-</p>
-</div>
-
-<div class="block">
-	<h2 style="text-align: center;"> آموزش سوم </h3>
-	<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-</p>
-</div>
-
-<div class="block">
-	<h2 style="text-align: center;"> آموزش چهارم </h3>
-	<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-</p>
-</div>
-
-
-
-<!-- Footer -->
-<div style="background-color: rgba(4, 45, 113, 0.3);padding-bottom: 5px;">
-	<h1 style="color: rgba(0,0,0,1);"><br><br><br></h1>
-	<p style="text-align: center;">Made by Parsa Ghasemi</p>
-	
-
-
-</div>
-
-
-
-
-
-
-
-
-
+    
+    
 </body>
 </html>
