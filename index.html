@@ -2,31 +2,35 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" />
 <meta charset="UTF-8">
 <title>Crossover Studio</title>
     
-
 <style>
     /* The navigation bar */
 .navbar {
     overflow: hidden;
-    background-color: #FAAF2F;
     position: fixed; /* Set the navbar to fixed position */
+    display: ;
     top: 2%; /* Position the navbar at the top of the page */
     right: 2%;
-    height: 96%;
-    width: 56px; /* Full width */
+    bottom: 2%;
+    width: 8%; /* Full width */
     border-radius: 10px;
+    animation: slideInRight;
+    animation-duration: 1s; 
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: right;
   display: block;
-  color: #252525;
+  color: #FD5F00;
   text-align: center;
-  padding: 20px 16px;
+  padding: calc((100% - 36px)/2);
   text-decoration: none;
+  vertical-align: middle;
+
 }
 
 /* Change background on mouse-over */
@@ -34,37 +38,83 @@
   background: #B7B6C1;
   color: black;
 }
-
-/* Main content */
-.main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
-}
-
 .footer {
-  position: fixed;
-  right: 2%;
-  bottom: 3%;
-  width: 100%;
-  text-align: center;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+    animation: slideInRight;
+    animation-duration: 1s; 
+    z-index: -2;
+}
+
+.header {
+    width: 89%;
+}
+
+.toplogo {
+    
+    position: fixed;
+    left: calc(12%);
+    top: 30px;
+    width: 300px;
+    
 }
     
+.video{
+    margin: 1%;
+    left: 2%;
+}
+.main {
+    margin-top: calc(3% + 100px);
+    margin-right: calc(14% + 10px);
+    height: 2000px; /* Used in this example to enable scrolling */
+}
+
+    .border{
+        box-shadow: 
+            0 0 0.1vw  0.4vw rgb(256,256,256),   
+            0 0 0.4vw  0.6vw rgb(220,95,0), 
+            0 0   4vw  0.4vw #FD5F00,
+            inset 0 0 1.5vw  0.4vw #FD5F00,
+            inset 0 0 0.4vw  0.2vw rgb(220,95,0),
+            inset 0 0 0.5vw  0.2vw rgb(256,256,256);
+        border-radius: 1rem;
+    }
+        
     
-    
-    
-    
+    .material-icons.md-36 { font-size: 36px; }
+
     
     
 </style>    
 </head>
 
-<body style="background-color: #252526">
-<img src="img/crossoverlogo.png" alt="logo" style="width: 200px;max-height: 30%;margin-top: 2%;margin-left: 2%">
-<div class="navbar"> <a href="#menu" class="material-icons">menu</a>
-    <a href="#home" class="material-icons">home</a>
-    <a href="#movies" class="material-icons">movie</a>
-    <a href="#contact" class="material-icons">contact_support</a>
+<body style="background-image: url('img/brickbackground3.jpg')" dir="rtl">
+
+
+    <div class="header">
+        <img src="img/neon-logo3.png" alt="logo" class="toplogo header" style="">
+</div><div class="navbar border"> 
+
+    <a href="#menu" class="material-icons md-36">menu</a>
+    <a href="#home" class="material-icons md-36" >home</a>
+    <a href="#movies" class="material-icons md-36">movie</a>
+    <a href="#contact" class="material-icons md-36">contact_support</a>
    
 </div>
-     <img src="img/backwardsparrot.gif" class="footer" style="width: 56px;bottom: ;">
+
+<div class="main"> 
+    
+    
+<video class="border video" width="709" height="400" controls>
+  <source src="sina-saee.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+    
+</div>
+
+<img src="img/backwardsparrot.gif" class="footer" style="width: 8%;">
 </body>
 </html>
