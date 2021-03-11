@@ -80,7 +80,7 @@
     height: 2000px; /* Used in this example to enable scrolling */
 }
 
-    .border{
+    .borderorange{
         box-shadow: 
             0 0 0.1vw  0.2vw rgb(256,256,256),   
             0 0 0.4vw  0.6vw #f6b231, 
@@ -90,17 +90,36 @@
             inset 0 0 0.5vw  0.1vw rgb(256,256,256);
         border-radius: 1rem;
     }
+.bordergray{
+        box-shadow: 
+            0 0 0.1vw  0.2vw rgb(256,256,256),   
+            0 0 0.4vw  0.6vw #CFCFCF, 
+            0 0   4vw  0.4vw #CFCFCF,
+            inset 0 0 1.5vw  0.4vw #CFCFCF,
+            inset 0 0 0.4vw  0.2vw #CFCFCF,
+            inset 0 0 0.5vw  0.1vw rgb(256,256,256);
+        border-radius: 1rem;
+}
+      
         
-    
-    .material-icons.md-36 { font-size: 200%; }    
+.material-icons.md-36 { font-size: 40px; }    
+
+
 </style>    
+
+
 </head>
 
-<body style="background-image: url('img/brickbackground3.jpg')" dir="rtl">
+<body style="background-image: url('img/brickbackground3.jpg');width: width;" dir="rtl">
 
-    <div class="header">
+<div class="header">
+        
         <img src="img/neon-logo3.png" alt="logo" class="toplogo header" style="">
-</div><div class="navbar border"> 
+
+</div>
+
+
+<div class="navbar borderorange"> 
 
     <a href="#menu" class="material-icons md-36">menu</a>
     <a href="#home" class="material-icons md-36" >home</a>
@@ -109,16 +128,12 @@
    
 </div>
 
-<div class="main"> 
-    
-    
-<video class="border video" width="80%" height="" controls>
-  <source src="sina-saee.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-    
+<div class="main">      
+    <video class="bordergray video" width="80%" height="" controls></video>  
+
+    <iframe src="https://open.spotify.com/embed/album/74Yd5O5XzXEKvTZktOJCay" width="80%" height="77px" frameborder="0" allowtransparency="true" allow="encrypted-media" style="padding-right: 1%;"></iframe>
 </div>
-<img class="header" src="img/header.png">
+
 
 <img src="img/docparrot.gif" class="footer" style="width: 8%;">
 </body>
